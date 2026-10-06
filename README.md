@@ -10,7 +10,7 @@
 ## Install
 
 ```bash
-npm install github:retracn/app-store-scraper-cloud
+npm install github:retracn/app-store-scraper-cloud   # Node 20 or later
 ```
 
 You need an Apify API token: create a [free Apify account](https://console.apify.com/sign-up), copy the token from [Settings → API & Integrations](https://console.apify.com/settings/integrations) and set `APIFY_TOKEN`, or pass `{ apifyToken: '...' }` to `reviews()`.
