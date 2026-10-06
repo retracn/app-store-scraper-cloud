@@ -1,0 +1,36 @@
+{
+  "name": "app-store-scraper-cloud",
+  "version": "1.0.0",
+  "description": "Drop-in replacement for app-store-scraper with a reliable reviews(): no 403 or \"Unexpected token <\" errors from Apple's review feed, and more than 500 reviews per app. Same API.",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "lib/"
+  ],
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "app-store-scraper": "^0.18.0"
+  },
+  "keywords": [
+    "app-store-scraper",
+    "app-store",
+    "itunes",
+    "reviews",
+    "app-reviews",
+    "ios",
+    "scraper",
+    "apify"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/retracn/app-store-scraper-cloud.git"
+  },
+  "homepage": "https://github.com/retracn/app-store-scraper-cloud#readme",
+  "author": "AutomationNation",
+  "license": "MIT"
+}
